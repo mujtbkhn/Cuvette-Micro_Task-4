@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 20px auto;
+    padding: 10rem 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; 
+    /* width: 100%;  */
+  }
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-auto-rows: 30px;
+    gap: 25px;
+}
+
+.buttons button {
+    background-color: lightcyan;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border-style: none;
+}
+#result {
+  margin-bottom: 20px;
+  width: 395px;
+  height: 50px;
+  background-color: rgb(226, 237, 250);
+  border-radius: 8px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center; 
+  padding: 0 10px;
+  font-weight: bold; 
+  color: #333
+}
